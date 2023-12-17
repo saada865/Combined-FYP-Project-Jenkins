@@ -1,0 +1,81 @@
+.Footer {
+    /* background-color: #1c2331; */
+    color: white;
+    height: 150px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .first-text {
+    /* color: black; */
+  }
+  .name-logo {
+    display: flex;
+    border-right: 2px solid white;
+    width: 30%;
+    height: 100%;
+    margin-left: 3%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .company-name {
+    color: white;
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .company-info {
+    border-right: 2px white solid;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .company-info h5 {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .company-info p {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .contact-info {
+    width: 20%;
+    height: 100%;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-info h5 {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .email {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+  }
+  

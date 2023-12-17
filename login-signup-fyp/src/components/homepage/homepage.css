@@ -1,0 +1,84 @@
+.parent {
+  width: 450px;
+  margin: auto;
+  margin-top:10%;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 25px;
+  box-shadow: 7px 20px 20px rgb(210, 227, 244);
+  animation: parent-animation 1s forwards;
+  }
+  
+  .file-upload {
+  text-align: center;
+  border: 3px dashed rgb(210, 227, 244);
+  padding: 1.5rem;
+  position: relative;
+  cursor: pointer;
+  }
+  
+  .file-upload div {
+  font-size: 0.87rem;
+  margin-top: 10px;
+  color: #39393a;
+  }
+  
+  .file-upload input {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  cursor: pointer;
+  }
+  
+  .file-upload img{
+  width:20%;
+  height:20%;
+  }
+  
+  .AudioSubmitButton{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  animation: button-animation 1s forwards;
+  margin-top:3%;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  
+  .AudioSubmitButton:hover{
+  background-color: #0056b3;
+  }
+  
+  @keyframes parent-animation {
+  from {
+  transform: translateY(100%);
+  }
+  to {
+  transform: translateY(0);
+  }
+  }
+  
+  @keyframes button-animation {
+  from {
+  transform: translateY(100%);
+  }
+  to {
+  transform: translateY(0);
+  }
+  }
+  
+  
+  
+  
+  

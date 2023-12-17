@@ -1,0 +1,14 @@
+# Dependency directories
+node_modules/
+vendor/
+
+# Build outputs
+/dist
+/build
+
+# Temporary files
+*.log
+*.tmp
+
+# Environment files
+.env
