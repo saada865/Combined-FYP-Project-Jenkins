@@ -10,3 +10,5 @@ spec:
       nodePort: // add the nodeport here above 31000
   selector:
     app: api
+
+//changes
